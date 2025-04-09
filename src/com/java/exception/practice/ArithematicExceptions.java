@@ -10,8 +10,14 @@ public class ArithematicExceptions {
 		int a = 10 / 0;
 	}
 
+	public static void checkException2() {
+		int a = 7 / 0;
+	}
+
 	public static void main(String[] args) {
 
 		checkException();
+
+		checkException2();
 	}
 }
