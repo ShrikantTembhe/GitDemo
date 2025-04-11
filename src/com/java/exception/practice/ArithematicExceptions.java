@@ -11,19 +11,19 @@ public class ArithematicExceptions {
 	}
 
 	public static void checkException2() {
-		int a = 7 / 0;
+		int b = 7 / 0;
 	}
 
 	public static void checkException3() {
-		int a = 6 / 0;
+		int c = 6 / 0;
 	}
 
 	public static void checkException4() {
-		int a = 5 / 0;
+		int d = 5 / 0;
 	}
 
 	public static void checkException5() {
-		int a = 4 / 0;
+		int e = 4 / 0;
 	}
 
 	public static void main(String[] args) {
