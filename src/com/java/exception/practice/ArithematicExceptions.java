@@ -10,14 +10,6 @@ public class ArithematicExceptions {
 		int a = 10 / 0;
 	}
 
-	public static void checkException2() {
-		int b = 7 / 0;
-	}
-
-	public static void checkException3() {
-		int c = 6 / 0;
-	}
-
 	public static void checkException4() {
 		int d = 5 / 0;
 	}
@@ -29,10 +21,6 @@ public class ArithematicExceptions {
 	public static void main(String[] args) {
 
 		checkException();
-
-		checkException2();
-
-		checkException3();
 
 		checkException4();
 
