@@ -18,6 +18,10 @@ public class ArithematicExceptions {
 		int e = 4 / 0;
 	}
 
+	public static void checkException6() {
+		int z = 5 / 0;
+	}
+
 	public static void main(String[] args) {
 
 		checkException();
@@ -25,6 +29,8 @@ public class ArithematicExceptions {
 		checkException4();
 
 		checkException5();
+
+		checkException6();
 
 	}
 }
